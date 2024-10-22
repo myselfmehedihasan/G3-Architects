@@ -8,13 +8,20 @@
     font-family: "Work Sans", sans-serif;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-.btn-primary{
+.btn-primary {
+    border-radius: 8px;
     background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* Shared styles ends*/
@@ -33,7 +40,7 @@ nav {
 }
 
 .nav-title {
-    color:  #131313;
+    color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -53,20 +60,27 @@ nav li a {
     text-decoration: none;
     color: #424242;
 }
+
 /* header styles ends here */
 
 /* Banner styles */
-.banner-content{
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
 
-.banner-description{
+.banner-description {
     color: #424242;
+    
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
 }
